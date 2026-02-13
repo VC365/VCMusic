@@ -3,8 +3,6 @@ I'M WORKING THIS PROJECT
 Base (Crystal, LibAdwaita)
 ## Remaining tasks
   * Setup MPRIS D-Bus
-  * Setup Open File & Run in background
-  * Create Icon
   * Fix GNOME Bugs
   * Create Website
   * Build for Flathub
