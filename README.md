@@ -2,8 +2,7 @@
 I'M WORKING THIS PROJECT 
 Base (Crystal, LibAdwaita)
 ## Remaining tasks
-  * Setup MPRIS D-Bus
-  * Fix GNOME Bugs
+  * Fix some bugs
   * Create Website
   * Build for Flathub
   * ...
