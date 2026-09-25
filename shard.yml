@@ -1,0 +1,13 @@
+name: VCMusic
+version: 0.1.0
+
+authors:
+  - VC365 <https://vc-365.ir>
+
+targets:
+  VCMusic:
+    main: src/main.cr
+
+crystal: '>= 1.21.0'
+
+license: GPL
