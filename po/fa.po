@@ -1,0 +1,427 @@
+# Persian translation for ir.NonFree.VCMusic.
+# Copyright (C) 2026 THE ir.NonFree.VCMusic COPYRIGHT HOLDER
+# This file is distributed under the same license as the ir.NonFree.VCMusic package.
+# VC365 <https://vc-365.ir>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-23 19:42+0330\n"
+"Last-Translator: VC365 \n"
+"Language-Team: Persian \n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+
+#: data/ui/root/main.ui:1111
+msgid "432 Hz Mode"
+msgstr "حالت ۴۳۲ هرتز"
+
+#: data/ui/root/main.ui:1142
+msgid "Add Source"
+msgstr "افزودن منبع"
+
+#: src/ui/ui.cr:246
+msgid "Add songs to your favorites to view them here."
+msgstr "آهنگ‌ها را به علاقه‌مندی‌ها خود اضافه کنید تا آنها را اینجا مشاهده کنید."
+
+#: data/ui/root/main.ui:943
+msgid "Add to Favorites"
+msgstr "افزودن به علاقه‌مندی‌ها"
+
+#: data/ui/root/main.ui:914
+msgid "Add to playlists"
+msgstr "افزودن به فهرست‌های پخش"
+
+#: data/ui/root/main.ui:267
+msgid "All Songs"
+msgstr "آهنگ‌ها"
+
+#: data/ui/root/main.ui:1035
+msgid "Application Preferences"
+msgstr "ترجیحات برنامه"
+
+#: data/ui/root/main.ui:1083
+msgid "Async"
+msgstr "ناهمگام"
+
+#: data/ui/root/main.ui:847
+msgid "Cancel"
+msgstr "لغو"
+
+#: data/ui/root/main.ui:1003
+msgid "Clean List"
+msgstr "پاکسازی فهرست"
+
+#: data/ui/root/main.ui:1064
+msgid "Close UI to reduce resource usage"
+msgstr "بستن رابطه کاربری برای کاهش مصرف منابع"
+
+#: data/ui/root/main.ui:1065
+msgid ""
+"Closes the user interface to reduce resource usage while the app continues "
+"running in the background."
+msgstr ""
+"رابط کاربری را می‌بندد تا مصرف منابع کاهش یابد، در حالی که برنامه همچنان "
+"در پس‌زمینه اجراست."
+
+#: src/none/player.cr:377
+msgid "Consecutive playback"
+msgstr "پخش پشت‌سرهم"
+
+#: data/ui/root/main.ui:854
+msgid "Create"
+msgstr "ساخت"
+
+#: data/ui/root/main.ui:816
+msgid "Create New Playlist"
+msgstr "ساخت فهرست پخش جدید"
+
+#: data/ui/root/main.ui:29
+msgid "Create Playlist"
+msgstr "ساخت فهرست پخش"
+
+#: src/ui/ui.cr:248
+msgid "Create your first playlist to organize your favorite tracks."
+msgstr "اولین فهرست پخش خود را برای سازماندهی آهنگ‌های مورد علاقه‌تان ایجاد کنید."
+
+#: data/ui/root/main.ui:1036
+msgid "Customize the application"
+msgstr "شخصی سازی برنامه"
+
+#: data/ui/root/main.ui:1218 data/ui/root/main.ui:1220
+msgid "Dark style"
+msgstr "حالت تاریک"
+
+#: src/ui/ui.cr:142 src/ui/ui.cr:143 src/ui/ui.cr:589 src/ui/ui.cr:590
+msgid "Delete"
+msgstr "حذف"
+
+#: data/ui/root/main.ui:70
+msgid "Delete Playlist"
+msgstr "حذف فهرست پخش"
+
+#: src/ui/playlist.cr:42
+msgid "Delete playlist"
+msgstr "حذف فهرست پخش"
+
+#: data/ui/root/main.ui:1105
+msgid "Experimental: Visualizer"
+msgstr "آزمایشی: نمایشگر بصری"
+
+#: data/ui/root/main.ui:466
+msgid "Favorites"
+msgstr "علاقه‌مندی‌ها"
+
+#: src/ui/settings.cr:117
+msgid "Folder exists"
+msgstr "پوشه وجد دارد"
+
+#: src/ui/settings.cr:117
+msgid "Folder not found"
+msgstr "پوشه پیدا نشد"
+
+#: data/ui/root/main.ui:1182 data/ui/root/main.ui:1184
+msgid "Follow system style"
+msgstr "پیروی از سبک سیستم"
+
+#: data/ui/root/main.ui:1031
+msgid "General"
+msgstr "عمومی"
+
+#: data/ui/root/main.ui:800
+msgid "Go to current song"
+msgstr "رفتن به مکان آهنگ فعلی"
+
+#: data/ui/root/main.ui:1112
+msgid ""
+"Instantly shift the output of any song from 440 Hz to 432 Hz. May increase "
+"CPU usage. NEED rubberband-ladspa plugin!"
+msgstr ""
+"خروجی هر آهنگ را فوراً از ۴۴۰ هرتز به ۴۳۲ هرتز تغییر می‌دهد. ممکن است مصرف "
+"پردازنده را افزایش دهد. به افزونهٔ rubberband-ladspa نیاز دارد!"
+
+#: data/ui/root/main.ui:1058
+msgid "Keeps the app accessible from the system tray."
+msgstr "برنامه را در سینی سیستم در دسترس نگه می‌دارد."
+
+#: data/ui/root/main.ui:1121
+msgid "Library"
+msgstr "کتابخانه"
+
+#: data/ui/root/main.ui:1125
+msgid "Library Sources"
+msgstr "منابع کتابخانه"
+
+#: data/ui/root/main.ui:1200 data/ui/root/main.ui:1202
+msgid "Light style"
+msgstr "حالت روشن"
+
+#: data/ui/root/main.ui:1072
+msgid "Load Mode"
+msgstr "حالت بارگذاری"
+
+#: data/ui/root/main.ui:90
+msgid "Main Menu"
+msgstr "منو اصلی"
+
+#: data/ui/root/main.ui:1126
+msgid "Manage folders and locations used by the library."
+msgstr "پوشه‌ها و مکان‌های مورد استفادهٔ کتابخانه را مدیریت کنید."
+
+#: data/ui/root/main.ui:1039
+msgid "Max volume"
+msgstr "حداکثر صدا"
+
+#: src/ui/ui.cr:245
+msgid "No Favorite Songs Added"
+msgstr "هیچ آهنگ موردعلاقه‌ای اضافه نشده است"
+
+#: src/ui/ui.cr:253
+msgid "No Folders Available"
+msgstr "هیچ پوشه‌ای در دسترس نیست"
+
+#: src/ui/ui.cr:247
+msgid "No Playlists Available"
+msgstr "هیچ فهرست پخشی در دسترس نیست"
+
+#: src/ui/ui.cr:242 src/ui/ui.cr:249
+msgid "No Songs Available"
+msgstr "هیچ آهنگی در دسترس نیست"
+
+#: src/ui/playlist.cr:228 src/ui/ui.cr:254
+msgid "No songs available"
+msgstr "هیچ آهنگی در دسترس نیست"
+
+#: data/ui/root/main.ui:290
+msgid "PlayLists"
+msgstr "فهرست‌ها"
+
+#: data/ui/root/main.ui:835
+msgid "Playlist name…"
+msgstr "نام فهرست پخش..."
+
+#: data/ui/root/main.ui:1028
+msgid "Preferences"
+msgstr "ترجیحات"
+
+#: src/ui/ui.cr:251
+msgid "Queue is Empty"
+msgstr "صف پخش خالی است"
+
+#: src/none/player.cr:365
+msgid "Random playback"
+msgstr "پخش تصادفی"
+
+#: data/ui/root/main.ui:443
+msgid "Recently"
+msgstr "اخیر"
+
+#: data/ui/root/main.ui:1133
+msgid "Reload Sources"
+msgstr "بارگذاری مجدد منابع"
+
+#: src/ui/ui.cr:142 src/ui/ui.cr:589
+msgid "Remove as Recently"
+msgstr "حذف از موارد اخیر"
+
+#: src/none/player.cr:369
+msgid "Repeat queue"
+msgstr "تکرار صف پخش"
+
+#: src/none/player.cr:373
+msgid "Repeat current song"
+msgstr "تکرار آهنگ فعلی"
+
+#: data/ui/root/main.ui:1052
+msgid "Run in Background"
+msgstr "اجرا در پس‌زمینه"
+
+#: data/ui/root/main.ui:97
+msgid "Search Songs"
+msgstr "جستجوی آهنگ‌ها"
+
+#: data/ui/root/main.ui:249
+msgid "Search music..."
+msgstr "جستجوی موسیقی..."
+
+#: data/ui/root/main.ui:60 data/ui/root/main.ui:237
+msgid "Select mode"
+msgstr "حالت انتخاب"
+
+#: src/ui/headers.cr:90 src/ui/headers.cr:107 src/ui/headers.cr:130
+#: src/ui/headers.cr:163 src/ui/headers.cr:175 src/ui/headers.cr:191
+#: src/ui/headers.cr:278
+msgid "Selected"
+msgstr "انتخاب شده"
+
+#: data/ui/root/main.ui:1057
+msgid "Show tray icon"
+msgstr "نمایش آیکون سینی سیستم"
+
+#: src/none/player.cr:365
+msgid "Song not found!"
+msgstr "آهنگ پیدا نشد!"
+
+#: src/ui/playlist.cr:245 src/ui/playlist.cr:255 src/ui/playlist.cr:81
+#: src/ui/headers.cr:141
+msgid "Songs"
+msgstr "آهنگ‌ها"
+
+#: src/ui/playlist.cr:81 src/ui/playlist.cr:257
+msgid "Song"
+msgstr "آهنگ‌"
+
+#: data/ui/root/main.ui:1089
+msgid "Sync"
+msgstr "همگام"
+
+#: data/ui/root/main.ui:1106
+msgid ""
+"This feature is experimental and may not work well. May increase CPU usage."
+msgstr ""
+"این قابلیت آزمایشی است و ممکن است به‌خوبی کار نکند. ممکن است مصرف پردازنده را افزایش دهد."
+
+#: src/ui/playlist.cr:229 src/ui/ui.cr:243 src/ui/ui.cr:250 src/ui/ui.cr:255
+msgid "You haven't added any songs yet."
+msgstr "هنوز هیچ آهنگی اضافه نکرده‌اید."
+
+#: data/ui/root/main.ui:1239
+msgid "_About VCMusic"
+msgstr "_درباره VCMusic"
+
+#: data/ui/root/main.ui:400
+msgid "_Delete playlist"
+msgstr "_حذف فهرست پخش"
+
+#: data/ui/root/main.ui:1235
+msgid "_Preferences"
+msgstr "_ترجیحات"
+
+#: src/ui/ui.cr:157
+msgid "added to queue"
+msgstr "به صف پخش اضافه شد"
+
+#: src/ui/settings.cr:57
+msgid "translator-credits"
+msgstr ""
+
+
+
+#: data/ir.NonFree.VCMusic.desktop.in:4
+msgid "Music Player"
+msgstr "پخش‌کنندهٔ موسیقی"
+
+#: data/ir.NonFree.VCMusic.desktop.in:5
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:10
+msgid "Simple and lightweight music player"
+msgstr "پخش‌کنندهٔ موسیقی ساده و کم‌حجم"
+
+#: data/ir.NonFree.VCMusic.desktop.in:10
+msgid "music;sound;player;media;audio;playlist;song;"
+msgstr "music;sound;player;media;audio;playlist;آهنگ;صدا;پخش‌کننده;رسانه;صوت;سیاهه‌پخش;"
+
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:12
+msgid ""
+"VCMusic is a simple and lightweight music player inspired by the music "
+"players found on mobile devices. It is written in Crystal and built with "
+"Adwaita."
+msgstr ""
+"VCMusic یک پخش‌کنندهٔ موسیقی ساده و کم‌حجم است که از پخش‌کننده‌های موسیقی "
+"موجود در دستگاه‌های همراه الهام گرفته است. این برنامه با زبان Crystal "
+"نوشته شده و با Adwaita ساخته شده است."
+
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:18
+msgid "Features"
+msgstr "قابلیت‌ها"
+
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:20
+msgid "Audio and video playback via GStreamer (video as audio)."
+msgstr "پخش صدا و ویدئو از طریق GStreamer (ویدئو به‌صورت صدا)."
+
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:21
+msgid "Easy playlist creation."
+msgstr "ایجاد آسان فهرست پخش."
+
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:22
+msgid "Configurable volume amplification up to 1000%."
+msgstr "تقویت قابل تنظیم صدا تا ۱۰۰۰٪."
+
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:23
+msgid "Supports soft pause and play."
+msgstr "پشتیبانی از توقف و ادامه پخش نرم"
+
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:24
+msgid "Supports 432 Hz playback mode."
+msgstr "پشتیبانی از حالت پخش ۴۳۲ هرتز."
+
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:25
+msgid "Experimental audio visualizer."
+msgstr "بصری‌ساز صدای آزمایشی."
+
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:26
+msgid "Supports play queue management."
+msgstr "پشتیبانی از مدیریت صف پخش."
+
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:27
+msgid "Simple and clean user interface."
+msgstr "رابط کاربری ساده و تمیز."
+
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:28
+msgid "Supports opening files with VCMusic."
+msgstr "پشتیبانی از باز کردن فایل‌ها با VCMusic."
+
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:29
+msgid "Supports MPRIS controls."
+msgstr "پشتیبانی از واپایش MPRIS."
+
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:30
+msgid "Supports background playback."
+msgstr "پشتیبانی از پخش در پس‌زمینه."
+
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:31
+msgid "Supports Multi-algorithm search."
+msgstr "پشتیبانی از جستجوی چندالگوریتمی."
+
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:34
+msgid ""
+"VCMusic is designed to provide a smooth music management and playback "
+"experience without unnecessary complexity."
+msgstr ""
+"VCMusic برای ارائهٔ تجربه‌ای روان در مدیریت و پخش موسیقی طراحی شده است، "
+"بدون پیچیدگی‌های غیرضروری."
+
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:57
+msgid "Main window"
+msgstr "پنجرهٔ اصلی"
+
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:61
+msgid "Settings window"
+msgstr "پنجرهٔ تنظیمات"
+
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:65
+msgid "Playing view"
+msgstr "نمای پخش"
+
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:69
+msgid "Playlist view"
+msgstr "نمای فهرست پخش"
+
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:73
+msgid "Playlist page"
+msgstr "صفحهٔ فهرست پخش"
+
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:77
+msgid "Visualizer view"
+msgstr "نمای بصری‌ساز"
+
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:81
+msgid "Search mode view"
+msgstr "نمای حالت سرچ"
+
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:85
+msgid "Selection mode view"
+msgstr "نمای حالت انتخاب"
