@@ -9,7 +9,11 @@
     "--socket=fallback-x11",
     "--share=ipc",
     "--device=dri",
-    "--env=LADSPA_PATH=/app/lib/ladspa"
+    "--env=LADSPA_PATH=/app/lib/ladspa",
+    "--socket=pulseaudio",
+    "--filesystem=xdg-music",
+    "--own-name=org.mpris.MediaPlayer2.VCMusic",
+    "--talk-name=org.gtk.vfs.*"
   ],
   "cleanup": [
     "/include",
@@ -69,45 +73,13 @@
       ]
     },
     {
-      "name": "rubberband",
-      "buildsystem": "meson",
-      "config-opts": [
-        "-Dauto_features=disabled",
-        "-Dladspa=enabled",
-        "-Dlv2=disabled",
-        "-Dvamp=disabled",
-        "-Dcmdline=disabled",
-        "-Djni=disabled",
-        "-Dtests=disabled",
-        "-Dfft=builtin",
-        "-Dresampler=builtin",
-        "-Ddefault_library=shared"
-      ],
-      "cleanup": [
-        "/bin",
-        "/include",
-        "/lib/pkgconfig",
-        "/share/man"
-      ],
-      "post-install": [
-        "install -Dm644 COPYING /app/share/licenses/$FLATPAK_ID/rubberband/COPYING"
-      ],
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://breakfastquay.com/files/releases/rubberband-4.0.0.tar.bz2",
-          "sha256": "af050313ee63bc18b35b2e064e5dce05b276aaf6d1aa2b8a82ced1fe2f8028e9"
-        }
-      ]
-    }
-    {
       "name": "VCMusic",
       "buildsystem": "simple",
       "build-options": {
         "append-path": "/run/build/VCMusic/crystal/bin/"
       },
       "build-commands": [
-        "VCMUSIC_LOCALE_LOCATION=\\\"/app/share/locale\\\" crystal build ./src/main.cr --release",
+        "VCMUSIC_LOCALE_LOCATION=\\\"/app/share/locale\\\" crystal build ./src/main.cr -o VCMusic --release",
         "msgfmt --xml --template data/ir.NonFree.VCMusic.metainfo.xml.in -d \"./po\" -o data/ir.NonFree.VCMusic.metainfo.xml",
         "msgfmt --desktop --template data/ir.NonFree.VCMusic.desktop.in -d \"./po\" -o data/ir.NonFree.VCMusic.desktop",
         "mkdir -p po/mo && for lang in `cat \"po/LINGUAS\"`; do if [[ \"$lang\" == 'en' || \"$lang\" == '' ]]; then continue; fi; mkdir -p \"/app/share/locale/$lang/LC_MESSAGES\"; msgfmt \"po/$lang.po\" -o \"po/mo/$lang.mo\";  install -D -m 0644 \"po/mo/$lang.mo\" \"/app/share/locale/$lang/LC_MESSAGES/ir.NonFree.VCMusic.mo\"; done"
