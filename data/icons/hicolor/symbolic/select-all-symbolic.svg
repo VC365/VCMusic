@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="16px"
+   viewBox="0 0 16 16"
+   width="16px"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="select-all-symbolic.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="28.4375"
+     inkscape:cx="8"
+     inkscape:cy="8"
+     inkscape:window-width="1366"
+     inkscape:window-height="664"
+     inkscape:window-x="0"
+     inkscape:window-y="36"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <g
+     fill="#222222"
+     id="g2">
+    <path
+       d="m 5.996094 3 c -1.644532 0 -3 1.355469 -3 3 v 7 c 0 1.644531 1.355468 3 3 3 h 7 c 1.644531 0 3 -1.355469 3 -3 v -7 c 0 -1.644531 -1.355469 -3 -3 -3 z m 0 2 h 7 c 0.570312 0 1 0.429688 1 1 v 7 c 0 0.570312 -0.429688 1 -1 1 h -7 c -0.570313 0 -1 -0.429688 -1 -1 v -7 c 0 -0.570312 0.429687 -1 1 -1 z m 0 0"
+       id="path1" />
+    <path
+       d="m 2.996094 0 c -1.644532 0 -3.00000025 1.355469 -3.00000025 3 v 7 c 0 1.292969 0.83984425 2.40625 2.00000025 2.824219 v -9.824219 c 0 -0.570312 0.429687 -1 1 -1 h 9.820312 c -0.414062 -1.160156 -1.527344 -2 -2.820312 -2 z m 0 0"
+       id="path2" />
+  </g>
+  <path
+     d="M 13.696199,6.5722593 C 13.825629,6.3968517 13.888905,6.1664145 13.8774,5.9359781 13.863019,5.7021017 13.773857,5.4854218 13.627171,5.3306509 13.480487,5.1758791 13.287782,5.0967745 13.092201,5.1139711 c -0.19558,0.013757 -0.37678,0.123817 -0.506208,0.2992245 L 7.9495819,11.748494 6.2986511,9.7708626 c -0.2876186,-0.343935 -0.7535602,-0.343935 -1.0411789,0 -0.1380568,0.1650897 -0.215714,0.3920884 -0.215714,0.6259644 0,0.233876 0.077657,0.457433 0.215714,0.622523 l 2.2089105,2.641428 c 0.143809,0.171967 0.3422655,0.26483 0.5464749,0.257951 0.2013333,-0.01032 0.3940372,-0.116937 0.5292182,-0.302663 z m 0,0"
+     fill="#222222"
+     id="path1-3"
+     style="stroke-width:0.805167" />
+</svg>
