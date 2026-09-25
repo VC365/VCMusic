@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <id>ir.NonFree.VCMusic</id>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>GPL-3.0-or-later</project_license>
+    <developer id="ir.NonFree">
+        <name>VC365</name>
+    </developer>
+    <name>VCMusic</name>
+    <summary>Simple and lightweight music player</summary>
+    <description>
+        <p>
+            VCMusic is a simple and lightweight music player inspired by the music
+            players found on mobile devices. It is written in Crystal and built
+            with Adwaita.
+        </p>
+
+        <p>Features</p>
+        <ul>
+            <li>Audio and video playback via GStreamer (video as audio).</li>
+            <li>Easy playlist creation.</li>
+            <li>Configurable volume amplification up to 1000%.</li>
+            <li>Supports soft pause and play.</li>
+            <li>Supports 432 Hz playback mode.</li>
+            <li>Experimental audio visualizer.</li>
+            <li>Supports play queue management.</li>
+            <li>Simple and clean user interface.</li>
+            <li>Supports opening files with VCMusic.</li>
+            <li>Supports MPRIS controls.</li>
+            <li>Supports background playback.</li>
+            <li>Supports Multi-algorithm search.</li>
+        </ul>
+
+        <p>
+            VCMusic is designed to provide a smooth music management and playback
+            experience without unnecessary complexity.
+        </p>
+
+    </description>
+
+    <url type="homepage">https://vc-365.ir/VCMusic</url>
+    <url type="vcs-browser">https://github.com/VC365/VCMusic</url>
+    <url type="bugtracker">https://github.com/VC365/VCMusic/issues</url>
+<!--    <url type="donation">https://vc-365.ir/donate</url>-->
+    <translation type="gettext">VCMusic</translation>
+    <launchable type="desktop-id">ir.NonFree.VCMusic.desktop</launchable>
+    <provides>ir.NonFree.VCMusic.desktop</provides>
+    <content_rating type="oars-1.1"/>
+
+    <branding>
+        <color type="primary" scheme_preference="light">#ff00ff</color>
+        <color type="primary" scheme_preference="dark">#993d3d</color>
+    </branding>
+
+    <screenshots>
+        <screenshot type="default">
+            <caption>Main window</caption>
+            <image>https://raw.githubusercontent.com/VC365/VCMusic/refs/heads/main/data/screenshots/screenshots-1.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>Settings window</caption>
+            <image>https://raw.githubusercontent.com/VC365/VCMusic/refs/heads/main/data/screenshots/screenshots-4.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>Playing view</caption>
+            <image>https://raw.githubusercontent.com/VC365/VCMusic/refs/heads/main/data/screenshots/screenshots-5.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>Playlist view</caption>
+            <image>https://raw.githubusercontent.com/VC365/VCMusic/refs/heads/main/data/screenshots/screenshots-2.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>Playlist page</caption>
+            <image>https://raw.githubusercontent.com/VC365/VCMusic/refs/heads/main/data/screenshots/screenshots-3.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>Visualizer view</caption>
+            <image>https://raw.githubusercontent.com/VC365/VCMusic/refs/heads/main/data/screenshots/screenshots-6.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>Search mode view</caption>
+            <image>https://raw.githubusercontent.com/VC365/VCMusic/refs/heads/main/data/screenshots/screenshots-8.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>Selection mode view</caption>
+            <image>https://raw.githubusercontent.com/VC365/VCMusic/refs/heads/main/data/screenshots/screenshots-7.png</image>
+        </screenshot>
+    </screenshots>
+
+    <releases>
+        <release version="0.1.0" date="2024-01-18">
+            <url type="details">https://example.org/changelog.html#version_1.0.1</url>
+            <description translate="no">
+                <p>First release</p>
+            </description>
+        </release>
+    </releases>
+
+</component>
