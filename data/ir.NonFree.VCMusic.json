@@ -77,7 +77,7 @@
         "append-path": "/run/build/VCMusic/crystal/bin/"
       },
       "build-commands": [
-        "VCMUSIC_LOCALE_LOCATION=\\\"/app/share/locale\\\" crystal build ./src/main.cr -o VCMusic --release",
+        "VCMUSIC_LOCALE_LOCATION=/app/share/locale crystal build ./src/main.cr -o VCMusic --release",
         "msgfmt --xml --template data/ir.NonFree.VCMusic.metainfo.xml.in -d \"./po\" -o data/ir.NonFree.VCMusic.metainfo.xml",
         "msgfmt --desktop --template data/ir.NonFree.VCMusic.desktop.in -d \"./po\" -o data/ir.NonFree.VCMusic.desktop",
         "mkdir -p po/mo && for lang in `cat \"po/LINGUAS\"`; do if [[ \"$lang\" == 'en' || \"$lang\" == '' ]]; then continue; fi; mkdir -p \"/app/share/locale/$lang/LC_MESSAGES\"; msgfmt \"po/$lang.po\" -o \"po/mo/$lang.mo\";  install -D -m 0644 \"po/mo/$lang.mo\" \"/app/share/locale/$lang/LC_MESSAGES/ir.NonFree.VCMusic.mo\"; done"
