@@ -1,7 +1,7 @@
 {
   "app-id": "ir.NonFree.VCMusic",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "50",
+  "runtime-version": "51",
   "sdk": "org.gnome.Sdk",
   "command": "VCMusic",
   "finish-args": [
@@ -11,9 +11,7 @@
     "--device=dri",
     "--env=LADSPA_PATH=/app/lib/ladspa",
     "--socket=pulseaudio",
-    "--filesystem=xdg-music",
-    "--own-name=org.mpris.MediaPlayer2.VCMusic",
-    "--talk-name=org.gtk.vfs.*"
+    "--filesystem=xdg-music"
   ],
   "cleanup": [
     "/include",
@@ -39,8 +37,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://deb.debian.org/debian/pool/main/l/ladspa-sdk/ladspa-sdk_1.17.orig.tar.gz",
-          "sha256": "d9d596171d93f9c226fcdb7e27c6f917422ac487efe2c05e0a18094df4268061"
+          "url": "https://www.ladspa.org/download/ladspa_sdk_1.17.tgz",
+          "sha256": "27d24f279e4b81bd17ecbdcc38e4c42991bb388826c0b200067ce0eb59d3da5b"
         }
       ]
     },

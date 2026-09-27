@@ -53,7 +53,8 @@ module DBus
         dbivt
     end
     def self.init
-        Xlib.dbus_own_name(2,"org.mpris.MediaPlayer2.VCMusic",0,
+        is_fh=ENV["VCMUSIC_LOCALE_LOCATION"]?.try {|i| i=="/app/share/locale"}
+        Xlib.dbus_own_name(2,"org.mpris.MediaPlayer2.#{is_fh ? "ir.NonFree." : ""}VCMusic",0,
             ->(dbc : VC365::DBusConnection){Xlib.call do
                 dbus_connection_register(dbc,"/org/mpris/MediaPlayer2",
                     dbus_ni_get_interface(dbus_ni_new(XML,nil),"org.mpris.MediaPlayer2.Player"),
