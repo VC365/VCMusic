@@ -5,6 +5,7 @@ enum DoodXX
 K
 end
 module Storage
+    LOCALE_LOCATION={{ `crystal eval 'puts ENV["VCMUSIC_LOCALE_LOCATION"]?'`.chomp.stringify }}
     class_property open_local_song=false
     class Dirs
         Data=Linux ? Path[ENV["XDG_DATA_HOME"]? || Path["~/.local/share"].expand(home: true), 

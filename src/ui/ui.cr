@@ -97,7 +97,7 @@ module VC365::UI
         Xlib.call do
             appid=g_application_get_appid(app.as(VC365::GApp))
             setlocale(VC365::LC::ALL, "")
-            bindtextdomain(appid,ENV["VCMUSIC_LOCALE_LOCATION"]? || "/usr/share/locale")
+            bindtextdomain(appid,Storage::LOCALE_LOCATION.presence || "/usr/share/locale")
             textdomain(appid)
 	        g_resources_register(GRESOURCE)
             g_signal(app,"activate",

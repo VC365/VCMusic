@@ -53,7 +53,7 @@ module DBus
         dbivt
     end
     def self.init
-        is_fh=ENV["VCMUSIC_LOCALE_LOCATION"]?.try {|i| i=="/app/share/locale"}
+        is_fh=Storage::LOCALE_LOCATION.presence.try {|i| i=="/app/share/locale"}
         Xlib.dbus_own_name(2,"org.mpris.MediaPlayer2.#{is_fh ? "ir.NonFree." : ""}VCMusic",0,
             ->(dbc : VC365::DBusConnection){Xlib.call do
                 dbus_connection_register(dbc,"/org/mpris/MediaPlayer2",
