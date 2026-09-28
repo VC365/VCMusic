@@ -153,8 +153,8 @@ module Player
                 set_prop(bin.as(VC365::GObject),
                     "uri",uri,
                     "volume",volume,
-                    "flags",VC365::GstPFlags::All &
-                        ~(VC365::GstPFlags::Video | VC365::GstPFlags::Text | VC365::GstPFlags::Vis),
+                    "flags",VC365::GstPFlags::All & ~(VC365::GstPFlags::Video | VC365::GstPFlags::Text |
+                        VC365::GstPFlags::Vis | VC365::GstPFlags::NativeVideo),
                 nil)
                 audiofilter if Settings::Values.visualizer || Settings::Values.hz432
                 gst_bus_add_signal_watch(bus=gst_get_bus(bin))
