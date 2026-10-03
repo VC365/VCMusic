@@ -17,8 +17,8 @@
 ## Dependencies
 
 - `Crystal` - `~1.21.0`
-- `GTK`
-- `libadwaita`
+- `GTK4`
+- `libAdwaita`
 - `gettext`
 - `gstreamer`
 - `gstreamer-pbutils-1.0`
