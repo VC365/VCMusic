@@ -9,7 +9,10 @@
 </p>
 
 <p align="center">
-    <img alt="screenshot" width="640" src="./data/screenshots/screenshots-1.png"><br />
+    <img alt="screenshot" width="640" src="./data/screenshots/screenshots-1.png"><br/><br/>
+    <a href='https://flathub.org/fa/apps/ir.NonFree.VCMusic'>
+      <img alt='Download on Flathub' src='https://flathub.org/api/badge?svg&locale=en'/>
+    </a>
 </p>
 
 # Building
