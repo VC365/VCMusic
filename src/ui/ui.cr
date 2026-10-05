@@ -100,8 +100,25 @@ module VC365::UI
             bindtextdomain(appid,Storage::LOCALE_LOCATION.presence || "/usr/share/locale")
             textdomain(appid)
 	        g_resources_register(GRESOURCE)
+
             g_signal(app,"activate",
-                ->(ax : VC365::GApp,gpointer : Pointer(Void)){init(ax)})
+                ->(ax : VC365::GApp){init(ax)})
+            g_signal(app,"open",
+                ->(ax : VC365::GApp,gfile : VC365::GFile,count : Int32,uris : UInt8*){
+                    uris=String.new(uris).split("#|#")
+                    uris.each do |uri|
+                        init_list(lists[:root],uri,true) if List::AddSong.call(uri,false)
+                    end
+                    Storage.open_local_song=true
+                    Player.current=-100
+                    Player.change_value_bar=false
+                    Player.volumeX=Player.volume
+                    VC365::UI.upsheet(List.data[Player.index=List.data_indexU!(uris.last)])
+                    Player.play(uris.last)
+                    Xlib.abs_set_open(VC365::UI.upsheet[:sheet],true)
+                    Storage.open_local_song=false
+                }
+            )
         end
     end
     def self.notify(msg : String | UInt8*,timeout : Int32,one_toast=false,overlay=@@at_overlay.not_nil!)

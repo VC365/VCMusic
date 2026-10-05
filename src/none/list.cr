@@ -43,11 +43,13 @@ module List
         next unless info_result(info) == VC365::DisResult::Ok
         dir=Path[URI.parse(uri).path]
         name=dir.basename
+        csize=@@data.size
         @@data |=[{name: name[0,name.rindex!(".")],uri: uri,
             info: {duration: info_duration(info) / 10 ** 9,folder: dir.dirname,local_song: ls}}]
         # CleanUP
         g_object_unref(info.as(VC365::GObject))
         g_object_unref(discover.as(VC365::GObject))
+        @@data.size!=csize
     end}
 
     def self.init(reload=false,dirs=Settings::Values.dirs,callback=->{})

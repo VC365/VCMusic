@@ -32,29 +32,42 @@ module Storage
         end
     end
     def self.parse_arguments
+        is_remote=Xlib.g_application_is_remote(VC365::UI.app.as(VC365::GApp))
         File.exists?((file=Path[ARGV.first? || "#"]).to_s
         ) && if List::Formats.index(file.extension.strip("."))
-            @@open_local_song=true
-            Player.current=-100
-            Player.change_value_bar=false
-            Player.volumeX=Player.volume
             uri=file.to_uri
-            Player.current_song={name: Path[uri.path].stem,uri: uri.to_s}
-            VC365::UI.before_ui=->{List::AddSong.call(uri.to_s,false)}
-            VC365::UI.call=->(appX : VC365::GApp) { Player.play(uri.to_s);@@open_local_song=false;nil }
+            unless is_remote
+                @@open_local_song=true
+                Player.current=-100
+                Player.change_value_bar=false
+                Player.volumeX=Player.volume
+                Player.current_song={name: Path[uri.path].stem,uri: uri.to_s}
+                List::AddSong.call(uri.to_s,false)
+                VC365::UI.call=->(appX : VC365::GApp) { Player.play(uri.to_s);@@open_local_song=false;nil }
+            else
+                gfile=Xlib.g_file_new_for_uri("file:///dood")
+                Xlib.g_application_open(VC365::UI.app.as(VC365::GApp),pointerof(gfile),1,uri.to_s)
+                Xlib.g_object_unref(gfile.as(VC365::GObject))
+            end
         end
         OptionParser.parse do |arg|
             arg.banner="Usage: VCMusic [-h --help] [-f --file]"
             arg.on("-f","--file FILE","Open Song file") do |file|
                 File.exists?((fileX=Path[file]).to_s) && if List::Formats.index(fileX.extension.strip("."))
-                    @@open_local_song=true
-                    Player.current=-100
-                    Player.change_value_bar=false
                     uri=fileX.to_uri
-                    Player.volumeX=Player.volume
-                    Player.current_song={name: Path[uri.path].stem,uri: uri.to_s}
-                    VC365::UI.before_ui=->{List::AddSong.call(uri.to_s,false)}
-                    VC365::UI.call=->(appX : VC365::GApp) { Player.play(uri.to_s);@@open_local_song=false;nil }
+                    unless is_remote
+                        @@open_local_song=true
+                        Player.current=-100
+                        Player.change_value_bar=false
+                        Player.volumeX=Player.volume
+                        Player.current_song={name: Path[uri.path].stem,uri: uri.to_s}
+                        List::AddSong.call(uri.to_s,false)
+                        VC365::UI.call=->(appX : VC365::GApp) { Player.play(uri.to_s);@@open_local_song=false;nil }
+                    else
+                        gfile=Xlib.g_file_new_for_uri("file:///dood")
+                        Xlib.g_application_open(VC365::UI.app.as(VC365::GApp),pointerof(gfile),1,uri.to_s)
+                        Xlib.g_object_unref(gfile.as(VC365::GObject))
+                    end
                 end
             end
             arg.on("-h","--help","Show help message") do

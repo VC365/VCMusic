@@ -13,7 +13,7 @@
 #@[Link("notify")]
 
 lib VC365
-    Version="0.1.0"
+    Version="0.1.2"
     # Types
     alias GSourceFunc = Pointer(Void) -> Bool
     #type NotifyNotification = Void*
@@ -53,6 +53,7 @@ lib VC365
     type GstBus = Void*
     type GstStr = Void*
     type GValue = Void*
+    type GFile = Void*
 
     # Enums
     enum GstState
@@ -395,6 +396,10 @@ lib VC365
     fun g_variant_new_string(st : UInt8*) : Void*
     fun g_application_get_default : GApp
     fun g_application_get_appid=g_application_get_application_id(app : GApp) : UInt8*
+    fun g_file_new_for_uri(gfile : UInt8*) : GFile
+    fun g_application_is_remote=g_application_get_is_remote(app : GApp) : Bool
+    fun g_application_open(app : GApp,gfile : GFile*,count : Int32,uris : UInt8*)
+    fun g_application_register(app : AApp,a : Void*,b : Void*)
 
     # Cario
     fun cairo_arc(ctx : CarioC, xc : Float64, yc : Float64, radius : Float64, angle1 : Float64, angle2 : Float64)
