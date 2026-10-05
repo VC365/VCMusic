@@ -7,7 +7,7 @@ msys_sys ?= mingw64
 all: desktop build
 
 build:
-	VCMUSIC_LOCALE_LOCATION="$(PREFIX)$(LOCALE_LOCATION)" $(CRYSTAL_LOCATION)shards build --release -p
+	VCMUSIC_LOCALE_LOCATION=$(PREFIX)$(LOCALE_LOCATION) $(CRYSTAL_LOCATION)shards build --release -p
 
 clean:
 	rm -rf po/mo
