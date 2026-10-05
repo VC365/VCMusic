@@ -48,8 +48,8 @@
     <content_rating type="oars-1.1"/>
 
     <branding>
-        <color type="primary" scheme_preference="light">#ff00ff</color>
-        <color type="primary" scheme_preference="dark">#993d3d</color>
+        <color type="primary" scheme_preference="light">#f9e03e</color>
+        <color type="primary" scheme_preference="dark">#525238</color>
     </branding>
 
     <screenshots>
@@ -88,8 +88,16 @@
     </screenshots>
 
     <releases>
-        <release version="0.1.0" date="2024-01-18">
-            <url type="details">https://example.org/changelog.html#version_1.0.1</url>
+        <release version="0.1.1" date="2026-10-05">
+            <url type="details">https://github.com/VC365/VCMusic/releases/tag/v0.1.1</url>
+            <description translate="no">
+                <p>Implement opening one file while the app is running</p>
+                <p>Fix branding color</p>
+                <p>Update screenshots</p>
+            </description>
+        </release>
+        <release version="0.1.0" date="2026-09-25">
+            <url type="details">https://github.com/VC365/VCMusic/commits/v0.1.0</url>
             <description translate="no">
                 <p>First release</p>
             </description>
