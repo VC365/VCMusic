@@ -24,7 +24,7 @@ msgstr "حالت ۴۳۲ هرتز"
 msgid "Add Source"
 msgstr "افزودن منبع"
 
-#: src/ui/ui.cr:246
+#: src/ui/ui.cr:258
 msgid "Add songs to your favorites to view them here."
 msgstr "آهنگ‌ها را به علاقه‌مندی‌ها خود اضافه کنید تا آنها را اینجا مشاهده کنید."
 
@@ -84,7 +84,7 @@ msgstr "ساخت فهرست پخش جدید"
 msgid "Create Playlist"
 msgstr "ساخت فهرست پخش"
 
-#: src/ui/ui.cr:248
+#: src/ui/ui.cr:260
 msgid "Create your first playlist to organize your favorite tracks."
 msgstr "اولین فهرست پخش خود را برای سازماندهی آهنگ‌های مورد علاقه‌تان ایجاد کنید."
 
@@ -96,7 +96,7 @@ msgstr "شخصی سازی برنامه"
 msgid "Dark style"
 msgstr "حالت تاریک"
 
-#: src/ui/ui.cr:142 src/ui/ui.cr:143 src/ui/ui.cr:589 src/ui/ui.cr:590
+#: src/ui/ui.cr:154 src/ui/ui.cr:155 src/ui/ui.cr:613 src/ui/ui.cr:614
 msgid "Delete"
 msgstr "حذف"
 
@@ -176,23 +176,23 @@ msgstr "پوشه‌ها و مکان‌های مورد استفادهٔ کتاب�
 msgid "Max volume"
 msgstr "حداکثر صدا"
 
-#: src/ui/ui.cr:245
+#: src/ui/ui.cr:257
 msgid "No Favorite Songs Added"
 msgstr "هیچ آهنگ موردعلاقه‌ای اضافه نشده است"
 
-#: src/ui/ui.cr:253
+#: src/ui/ui.cr:265
 msgid "No Folders Available"
 msgstr "هیچ پوشه‌ای در دسترس نیست"
 
-#: src/ui/ui.cr:247
+#: src/ui/ui.cr:259
 msgid "No Playlists Available"
 msgstr "هیچ فهرست پخشی در دسترس نیست"
 
-#: src/ui/ui.cr:242 src/ui/ui.cr:249
+#: src/ui/ui.cr:254 src/ui/ui.cr:261
 msgid "No Songs Available"
 msgstr "هیچ آهنگی در دسترس نیست"
 
-#: src/ui/playlist.cr:228 src/ui/ui.cr:254
+#: src/ui/playlist.cr:228 src/ui/ui.cr:264
 msgid "No songs available"
 msgstr "هیچ آهنگی در دسترس نیست"
 
@@ -208,7 +208,7 @@ msgstr "نام فهرست پخش..."
 msgid "Preferences"
 msgstr "ترجیحات"
 
-#: src/ui/ui.cr:251
+#: src/ui/ui.cr:263
 msgid "Queue is Empty"
 msgstr "صف پخش خالی است"
 
@@ -224,7 +224,7 @@ msgstr "اخیر"
 msgid "Reload Sources"
 msgstr "بارگذاری مجدد منابع"
 
-#: src/ui/ui.cr:142 src/ui/ui.cr:589
+#: src/ui/ui.cr:154 src/ui/ui.cr:613
 msgid "Remove as Recently"
 msgstr "حذف از موارد اخیر"
 
@@ -285,7 +285,7 @@ msgid ""
 msgstr ""
 "این قابلیت آزمایشی است و ممکن است به‌خوبی کار نکند. ممکن است مصرف پردازنده را افزایش دهد."
 
-#: src/ui/playlist.cr:229 src/ui/ui.cr:243 src/ui/ui.cr:250 src/ui/ui.cr:255
+#: src/ui/playlist.cr:229 src/ui/ui.cr:255 src/ui/ui.cr:262 src/ui/ui.cr:267
 msgid "You haven't added any songs yet."
 msgstr "هنوز هیچ آهنگی اضافه نکرده‌اید."
 
@@ -301,7 +301,7 @@ msgstr "_حذف فهرست پخش"
 msgid "_Preferences"
 msgstr "_ترجیحات"
 
-#: src/ui/ui.cr:157
+#: src/ui/ui.cr:169
 msgid "added to queue"
 msgstr "به صف پخش اضافه شد"
 
@@ -318,7 +318,7 @@ msgstr "پخش‌کنندهٔ موسیقی"
 #: data/ir.NonFree.VCMusic.desktop.in:5
 #: data/ir.NonFree.VCMusic.metainfo.xml.in:10
 msgid "Simple and lightweight music player"
-msgstr "پخش‌کنندهٔ موسیقی ساده و کم‌حجم"
+msgstr "پخش‌کنندهٔ موسیقی ساده و سبک"
 
 #: data/ir.NonFree.VCMusic.desktop.in:10
 msgid "music;sound;player;media;audio;playlist;song;"
@@ -360,7 +360,7 @@ msgstr "پشتیبانی از حالت پخش ۴۳۲ هرتز."
 
 #: data/ir.NonFree.VCMusic.metainfo.xml.in:25
 msgid "Experimental audio visualizer."
-msgstr "بصری‌ساز صدای آزمایشی."
+msgstr "بصری‌ساز صدا (آزمایشی)."
 
 #: data/ir.NonFree.VCMusic.metainfo.xml.in:26
 msgid "Supports play queue management."

@@ -25,7 +25,7 @@ msgstr ""
 msgid "Add Source"
 msgstr ""
 
-#: src/ui/ui.cr:246
+#: src/ui/ui.cr:258
 msgid "Add songs to your favorites to view them here."
 msgstr ""
 
@@ -83,7 +83,7 @@ msgstr ""
 msgid "Create Playlist"
 msgstr ""
 
-#: src/ui/ui.cr:248
+#: src/ui/ui.cr:260
 msgid "Create your first playlist to organize your favorite tracks."
 msgstr ""
 
@@ -95,7 +95,7 @@ msgstr ""
 msgid "Dark style"
 msgstr ""
 
-#: src/ui/ui.cr:142 src/ui/ui.cr:143 src/ui/ui.cr:589 src/ui/ui.cr:590
+#: src/ui/ui.cr:154 src/ui/ui.cr:155 src/ui/ui.cr:613 src/ui/ui.cr:614
 msgid "Delete"
 msgstr ""
 
@@ -177,23 +177,23 @@ msgstr ""
 msgid "Max volume"
 msgstr ""
 
-#: src/ui/ui.cr:245
+#: src/ui/ui.cr:257
 msgid "No Favorite Songs Added"
 msgstr ""
 
-#: src/ui/ui.cr:253
+#: src/ui/ui.cr:265
 msgid "No Folders Available"
 msgstr ""
 
-#: src/ui/ui.cr:247
+#: src/ui/ui.cr:259
 msgid "No Playlists Available"
 msgstr ""
 
-#: src/ui/ui.cr:242 src/ui/ui.cr:249
+#: src/ui/ui.cr:254 src/ui/ui.cr:261
 msgid "No Songs Available"
 msgstr ""
 
-#: src/ui/playlist.cr:228 src/ui/ui.cr:254
+#: src/ui/playlist.cr:228 src/ui/ui.cr:264
 msgid "No songs available"
 msgstr ""
 
@@ -209,7 +209,7 @@ msgstr ""
 msgid "Preferences"
 msgstr ""
 
-#: src/ui/ui.cr:251
+#: src/ui/ui.cr:263
 msgid "Queue is Empty"
 msgstr ""
 
@@ -225,7 +225,7 @@ msgstr ""
 msgid "Reload Sources"
 msgstr ""
 
-#: src/ui/ui.cr:142 src/ui/ui.cr:589
+#: src/ui/ui.cr:154 src/ui/ui.cr:613
 msgid "Remove as Recently"
 msgstr ""
 
@@ -285,7 +285,7 @@ msgid ""
 "This feature is experimental and may not work well. May increase CPU usage."
 msgstr ""
 
-#: src/ui/playlist.cr:229 src/ui/ui.cr:243 src/ui/ui.cr:250 src/ui/ui.cr:255
+#: src/ui/playlist.cr:229 src/ui/ui.cr:255 src/ui/ui.cr:262 src/ui/ui.cr:267
 msgid "You haven't added any songs yet."
 msgstr ""
 
@@ -301,7 +301,7 @@ msgstr ""
 msgid "_Preferences"
 msgstr ""
 
-#: src/ui/ui.cr:157
+#: src/ui/ui.cr:169
 msgid "added to queue"
 msgstr ""
 
