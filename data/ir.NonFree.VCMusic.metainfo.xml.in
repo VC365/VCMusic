@@ -89,7 +89,7 @@
 
     <releases>
         <release version="0.1.1" date="2026-10-05">
-            <url type="details">https://github.com/VC365/VCMusic/releases/tag/v0.1.1</url>
+            <url type="details">https://github.com/VC365/VCMusic/commits/v0.1.1</url>
             <description translate="no">
                 <p>Implement opening one file while the app is running</p>
                 <p>Fix branding color</p>
