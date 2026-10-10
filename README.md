@@ -19,7 +19,7 @@
 
 ## Dependencies
 
-- `Crystal` - `~1.21.0`
+- `Crystal` - `~1.21.1`
 - `GTK4`
 - `libAdwaita`
 - `gettext`
