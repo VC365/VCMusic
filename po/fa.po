@@ -326,33 +326,33 @@ msgstr "music;sound;player;media;audio;playlist;آهنگ;صدا;پخش‌کنن�
 
 #: data/ir.NonFree.VCMusic.metainfo.xml.in:12
 msgid ""
-"VCMusic is a simple and lightweight music player inspired by the music "
-"players found on mobile devices. It is written in Crystal and built with "
-"Adwaita."
+"VCMusic is a simple and lightweight music player designed for smooth music "
+"playback and easy music management. It is written in the Crystal programming "
+"language and uses an Adwaita-based user interface."
 msgstr ""
-"VCMusic یک پخش‌کنندهٔ موسیقی ساده و کم‌حجم است که از پخش‌کننده‌های موسیقی "
-"موجود در دستگاه‌های همراه الهام گرفته است. این برنامه با زبان Crystal "
-"نوشته شده و با Adwaita ساخته شده است."
+"VCMusic یک پخش‌کنندهٔ موسیقی ساده و سبک است که برای مدیریت و پخش روان موسیقی "
+"طراحی شده.این برنامه با زبان برنامه‌نویسی Crystal نوشته شده و "
+"از رابط کاربری مبتنی بر Adwaita استفاده می‌کند."
 
 #: data/ir.NonFree.VCMusic.metainfo.xml.in:18
 msgid "Features"
-msgstr "قابلیت‌ها"
+msgstr "ویژگی‌ها"
 
 #: data/ir.NonFree.VCMusic.metainfo.xml.in:20
-msgid "Audio and video playback via GStreamer (video as audio)."
-msgstr "پخش صدا و ویدئو از طریق GStreamer (ویدئو به‌صورت صدا)."
+msgid "Audio and video playback (video as audio)."
+msgstr "پخش صدا و ویدیو (ویدئو به‌صورت صدا)."
 
 #: data/ir.NonFree.VCMusic.metainfo.xml.in:21
 msgid "Easy playlist creation."
 msgstr "ایجاد آسان فهرست پخش."
 
 #: data/ir.NonFree.VCMusic.metainfo.xml.in:22
-msgid "Configurable volume amplification up to 1000%."
-msgstr "تقویت قابل تنظیم صدا تا ۱۰۰۰٪."
+msgid "Volume boost up to 1000%."
+msgstr "افزایش صدا تا ۱۰۰۰٪."
 
 #: data/ir.NonFree.VCMusic.metainfo.xml.in:23
 msgid "Supports soft pause and play."
-msgstr "پشتیبانی از توقف و ادامه پخش نرم"
+msgstr "پشتیبانی از توقف و ادامه پخش نرم."
 
 #: data/ir.NonFree.VCMusic.metainfo.xml.in:24
 msgid "Supports 432 Hz playback mode."
@@ -386,42 +386,34 @@ msgstr "پشتیبانی از پخش در پس‌زمینه."
 msgid "Supports Multi-algorithm search."
 msgstr "پشتیبانی از جستجوی چندالگوریتمی."
 
-#: data/ir.NonFree.VCMusic.metainfo.xml.in:34
-msgid ""
-"VCMusic is designed to provide a smooth music management and playback "
-"experience without unnecessary complexity."
-msgstr ""
-"VCMusic برای ارائهٔ تجربه‌ای روان در مدیریت و پخش موسیقی طراحی شده است، "
-"بدون پیچیدگی‌های غیرضروری."
-
-#: data/ir.NonFree.VCMusic.metainfo.xml.in:57
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:51
 msgid "Main window"
 msgstr "پنجرهٔ اصلی"
 
-#: data/ir.NonFree.VCMusic.metainfo.xml.in:61
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:55
 msgid "Settings window"
 msgstr "پنجرهٔ تنظیمات"
 
-#: data/ir.NonFree.VCMusic.metainfo.xml.in:65
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:59
 msgid "Playing view"
 msgstr "نمای پخش"
 
-#: data/ir.NonFree.VCMusic.metainfo.xml.in:69
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:63
 msgid "Playlist view"
 msgstr "نمای فهرست پخش"
 
-#: data/ir.NonFree.VCMusic.metainfo.xml.in:73
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:67
 msgid "Playlist page"
 msgstr "صفحهٔ فهرست پخش"
 
-#: data/ir.NonFree.VCMusic.metainfo.xml.in:77
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:71
 msgid "Visualizer view"
 msgstr "نمای بصری‌ساز"
 
-#: data/ir.NonFree.VCMusic.metainfo.xml.in:81
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:75
 msgid "Search mode view"
 msgstr "نمای حالت سرچ"
 
-#: data/ir.NonFree.VCMusic.metainfo.xml.in:85
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:79
 msgid "Selection mode view"
 msgstr "نمای حالت انتخاب"

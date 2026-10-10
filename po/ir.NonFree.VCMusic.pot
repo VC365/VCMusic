@@ -326,9 +326,9 @@ msgstr ""
 
 #: data/ir.NonFree.VCMusic.metainfo.xml.in:12
 msgid ""
-"VCMusic is a simple and lightweight music player inspired by the music "
-"players found on mobile devices. It is written in Crystal and built with "
-"Adwaita."
+"VCMusic is a simple and lightweight music player designed for smooth music "
+"playback and easy music management. It is written in the Crystal programming "
+"language and uses an Adwaita-based user interface."
 msgstr ""
 
 #: data/ir.NonFree.VCMusic.metainfo.xml.in:18
@@ -336,7 +336,7 @@ msgid "Features"
 msgstr ""
 
 #: data/ir.NonFree.VCMusic.metainfo.xml.in:20
-msgid "Audio and video playback via GStreamer (video as audio)."
+msgid "Audio and video playback (video as audio)."
 msgstr ""
 
 #: data/ir.NonFree.VCMusic.metainfo.xml.in:21
@@ -344,7 +344,7 @@ msgid "Easy playlist creation."
 msgstr ""
 
 #: data/ir.NonFree.VCMusic.metainfo.xml.in:22
-msgid "Configurable volume amplification up to 1000%."
+msgid "Volume boost up to 1000%."
 msgstr ""
 
 #: data/ir.NonFree.VCMusic.metainfo.xml.in:23
@@ -383,40 +383,34 @@ msgstr ""
 msgid "Supports Multi-algorithm search."
 msgstr ""
 
-#: data/ir.NonFree.VCMusic.metainfo.xml.in:34
-msgid ""
-"VCMusic is designed to provide a smooth music management and playback "
-"experience without unnecessary complexity."
-msgstr ""
-
-#: data/ir.NonFree.VCMusic.metainfo.xml.in:57
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:51
 msgid "Main window"
 msgstr ""
 
-#: data/ir.NonFree.VCMusic.metainfo.xml.in:61
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:55
 msgid "Settings window"
 msgstr ""
 
-#: data/ir.NonFree.VCMusic.metainfo.xml.in:65
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:59
 msgid "Playing view"
 msgstr ""
 
-#: data/ir.NonFree.VCMusic.metainfo.xml.in:69
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:63
 msgid "Playlist view"
 msgstr ""
 
-#: data/ir.NonFree.VCMusic.metainfo.xml.in:73
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:67
 msgid "Playlist page"
 msgstr ""
 
-#: data/ir.NonFree.VCMusic.metainfo.xml.in:77
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:71
 msgid "Visualizer view"
 msgstr ""
 
-#: data/ir.NonFree.VCMusic.metainfo.xml.in:81
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:75
 msgid "Search mode view"
 msgstr ""
 
-#: data/ir.NonFree.VCMusic.metainfo.xml.in:85
+#: data/ir.NonFree.VCMusic.metainfo.xml.in:79
 msgid "Selection mode view"
 msgstr ""

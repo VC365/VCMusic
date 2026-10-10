@@ -10,16 +10,16 @@
     <summary>Simple and lightweight music player</summary>
     <description>
         <p>
-            VCMusic is a simple and lightweight music player inspired by the music
-            players found on mobile devices. It is written in Crystal and built
-            with Adwaita.
+            VCMusic is a simple and lightweight music player designed for smooth music playback and easy music
+            management. It is written in the Crystal programming language and uses an Adwaita-based user
+            interface.
         </p>
 
         <p>Features</p>
         <ul>
-            <li>Audio and video playback via GStreamer (video as audio).</li>
+            <li>Audio and video playback (video as audio).</li>
             <li>Easy playlist creation.</li>
-            <li>Configurable volume amplification up to 1000%.</li>
+            <li>Volume boost up to 1000%.</li>
             <li>Supports soft pause and play.</li>
             <li>Supports 432 Hz playback mode.</li>
             <li>Experimental audio visualizer.</li>
@@ -30,12 +30,6 @@
             <li>Supports background playback.</li>
             <li>Supports Multi-algorithm search.</li>
         </ul>
-
-        <p>
-            VCMusic is designed to provide a smooth music management and playback
-            experience without unnecessary complexity.
-        </p>
-
     </description>
 
     <url type="homepage">https://vc-365.ir/VCMusic</url>
@@ -88,6 +82,7 @@
     </screenshots>
 
     <releases>
+        <release version="0.1.2" date="2026-10-10"/>
         <release version="0.1.1" date="2026-10-05">
             <url type="details">https://github.com/VC365/VCMusic/commits/v0.1.1</url>
             <description translate="no">
