@@ -28,12 +28,24 @@
      inkscape:cy="256"
      inkscape:window-width="1179"
      inkscape:window-height="664"
-     inkscape:window-x="0"
+     inkscape:window-x="-67"
      inkscape:window-y="36"
      inkscape:window-maximized="0"
      inkscape:current-layer="custom-logo" />
   <defs
      id="defs17">
+    <linearGradient
+       id="linearGradient1"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#292929;stop-opacity:1;"
+         offset="0"
+         id="stop18" />
+      <stop
+         style="stop-color:#191919;stop-opacity:1;"
+         offset="1"
+         id="stop19" />
+    </linearGradient>
     <linearGradient
        id="linearGradient23"
        inkscape:collect="always">
@@ -285,6 +297,15 @@
        x2="383.99991"
        y2="477.70227"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="linearGradient19"
+       x1="256"
+       y1="-0.50000525"
+       x2="256"
+       y2="512.49994"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <rect
      id="logo-bg"
@@ -292,7 +313,7 @@
      width="512"
      height="512"
      rx="100"
-     style="fill:url(#linearGradient24)" />
+     style="fill:url(#linearGradient24);stroke:url(#linearGradient19);stroke-opacity:1;stroke-width:1;stroke-dasharray:none" />
   <g
      id="g222"
      transform="matrix(0.86310489,0,0,0.86310489,-181.39422,-163.69565)"
