@@ -42,8 +42,8 @@
     <content_rating type="oars-1.1"/>
 
     <branding>
-        <color type="primary" scheme_preference="light">#ffec70ff</color>
-        <color type="primary" scheme_preference="dark">#616129ff</color>
+        <color type="primary" scheme_preference="light">#FFEF8A</color>
+        <color type="primary" scheme_preference="dark">#616129</color>
     </branding>
 
     <screenshots>
@@ -82,9 +82,11 @@
     </screenshots>
 
     <releases>
-        <release version="0.1.2" date="2026-10-10"/>
-        <release version="0.1.1" date="2026-10-05">
-            <url type="details">https://github.com/VC365/VCMusic/commits/v0.1.1</url>
+        <release version="0.1.2-1" date="2026-10-10">
+            <url type="details">https://github.com/VC365/VCMusic/compare/v0.1.2...v0.1.2-1</url>
+        </release>
+        <release version="0.1.2" date="2026-10-05">
+            <url type="details">https://github.com/VC365/VCMusic/compare/v0.1.0...v0.1.2</url>
             <description translate="no">
                 <p>Implement opening one file while the app is running</p>
                 <p>Fix branding color</p>
